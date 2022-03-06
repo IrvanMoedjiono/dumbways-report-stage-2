@@ -104,11 +104,11 @@
 
 <p align="center"><img src="../week-1/assets/Install-Ubuntu-Server-diVMware/24.png"></p>
 
-- Masukkan nama,nama server, username, dan password sesuai keinginan kita
+- Masukkan nama, nama server, username, dan password sesuai keinginan kita
 
 <p align="center"><img src="../week-1/assets/Install-Ubuntu-Server-diVMware/25.png"></p>
 
-- Skip SSH setup dengan cara pilih done
+- Centang SSH setup agar server dapat diremote, lalu pilih done
 
 <p align="center"><img src="../week-1/assets/Install-Ubuntu-Server-diVMware/26.png"></p>
 

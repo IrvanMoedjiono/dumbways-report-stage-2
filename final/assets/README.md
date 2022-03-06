@@ -1,2 +1,1 @@
-# Assets
-Masukkan gambar-gambar yang dibutuhkan pada folder assets
+# Kumpulan file Gambar final
