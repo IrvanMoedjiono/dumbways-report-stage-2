@@ -27,7 +27,7 @@
 <p align="center">Server Frontend</p>
 <p align="center"><img src="../week-2/assets/Reverse-Proxy/4.png"></p>
 
-<p align="center" font-size="50px">Server Backend</p>
+<p align="center">Server Backend</p>
 <p align="center"><img src="../week-2/assets/Reverse-Proxy/7.png"></p>
 
 - restart system nginx
