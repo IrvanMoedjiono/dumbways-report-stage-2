@@ -7,7 +7,6 @@
 - `sudo mysql_secure_installation` : untuk membuat password dan mengamankan mysql
 
 <p align="center"><img src="../week-2/assets/Setup-Database/2.png"></p>
-
 <p align="center"><img src="../week-2/assets/Setup-Database/3.png"></p>
 
 - `sudo mysql -u root -p`: untuk masuk ke user root mysql
@@ -39,5 +38,4 @@
 - `sudo systemctl restart mysql` : untuk merestart mysql agar konfigurasi baru diterapkan
 
 <p align="center"><img src="../week-2/assets/Setup-Database/8.png"></p>
-
 <p align="center"><img src="../week-2/assets/Setup-Database/9.png"></p>
