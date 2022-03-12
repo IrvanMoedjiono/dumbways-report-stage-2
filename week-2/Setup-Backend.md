@@ -66,6 +66,7 @@
 <p align="center"><img src="../week-2/assets/Setup-Backend/17.png"></p>
 
 - masuk web browser lalu masukkan alamat ip server backend beserta port 5000
+- jika muncul Cannot GET / maka konfigurasi berhasil
 
 <p align="center"><img src="../week-2/assets/Setup-Backend/19.png"></p>
 
