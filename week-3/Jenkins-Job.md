@@ -89,3 +89,38 @@ pipeline{
 - Jalankan Build Now dan aplikasi sudah terdeploy secara otomatis tanpa masuk kedalam server
 
 <p align="center"><img src="../week-3/assets/Jenkins-Job/8.png"></p>
+
+## Webhook
+
+Webhook adalah suatu sistem yang ketika ada perubahan pada repositori github maka url https yang dituju akan tertrigger/berjalan otomatis melakukan deploy. Pada bagian ini karena saya tidak memiliki public host maka saya menggunakan ngrok tunnel agar dapat mengenerate https.
+
+- Install ngrok pada server ci/cd jenkins
+
+`snap install ngrok`
+
+- Connect akun ngrok menggunakan token
+
+`ngrok config add-authtoken 26uCNXCqVRZyS6P2P77A9cQD2rE_33McENVsXnsbNV19KAeGb`
+
+- generate https jenkins 8080
+
+`ngrok http 8080`
+
+<p align="center"><img src="../week-3/assets/Jenkins-Job/17.png"></p>
+
+- login jenkins menggunakan alamat https yang sudah dibuat
+
+<p align="center"><img src="../week-3/assets/Jenkins-Job/18.png"></p>
+
+- Buka repositori github. pilih menu setting lalu webhook.
+- pilih add webhook
+
+<p align="center"><img src="../week-3/assets/Jenkins-Job/19.png"></p>
+
+- masukkan url https kedalam `Payload URL` dan tambahkan `/github-webhook/`
+
+<p align="center"><img src="../week-3/assets/Jenkins-Job/20.png"></p>
+
+- Webhook berhasil diterapkan
+
+<p align="center"><img src="../week-3/assets/Jenkins-Job/21.png"></p>
