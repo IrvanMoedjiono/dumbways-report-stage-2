@@ -20,7 +20,9 @@ sudo apt-get install \
 
 - Download resource docker 
 
-```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg```
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+```
 
 - Menambahkan gpg key dan repositori docker
 
@@ -44,6 +46,7 @@ echo \
 - Cek versi docker dan beri izin user ubuntu agar bisa melakukan perintah docker tanpa sudo
 
 `docker -v`
+
 `sudo usermod -aG docker nama-user`
 
 <p align="center"><img src="../week-3/assets/Install-Docker/5.png"></p>
