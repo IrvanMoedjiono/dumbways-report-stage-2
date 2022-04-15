@@ -8,3 +8,5 @@ Moedjiono Irvan Adiansyah Sahputra
 2. [Assignment Task Week 2](https://github.com/IrvanMoedjiono/dumbways-report-stage-2/blob/main/week-2/README.md)
 3. [Assignment Task Week 3](https://github.com/IrvanMoedjiono/dumbways-report-stage-2/blob/main/week-3/README.md)
 4. [Assignment Task Week 4](https://github.com/IrvanMoedjiono/dumbways-report-stage-2/blob/main/week-4/README.md)
+5. [Final Task](https://github.com/IrvanMoedjiono/dumbways-report-stage-2/blob/main/Final-Task/README.md)
+6. [Additional Kubernetes & Docker Swarm](https://github.com/IrvanMoedjiono/dumbways-report-stage-2/blob/main/additional/README.md)
