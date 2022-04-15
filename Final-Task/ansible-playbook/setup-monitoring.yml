@@ -1,0 +1,21 @@
+- hosts: monnginx
+  become: true
+  tasks:
+    - name: Copying docker compose monitoring file
+      copy:
+        src: docker-compose-monitoring.yml
+        dest: /home/irvan/docker-files/
+
+    - name: Copying prometheus.yml file
+      copy:
+        src: prometheus.yml
+        dest: /home/irvan/prometheus/
+    
+    - name: Run compose up 
+      shell:
+        cmd: docker-compose -f docker-files/docker-compose-monitoring.yml up -d
+
+    - name: Change grafana folder permission
+      shell: "sudo chown 1000:1000 grafana/data/"
+      args:
+        executable: /bin/bash   

@@ -1,0 +1,15 @@
+- hosts: monnginx
+  become: true
+  tasks:
+    - name: Copying nginx folder
+      copy:
+        src: nginx/
+        dest: /home/irvan/nginx/
+
+    - name: Run compose build
+      shell:
+        cmd: docker-compose -f nginx/docker-compose-nginx.yml build
+
+    - name: run compose up
+      shell:
+        cmd: docker-compose -f nginx/docker-compose-nginx.yml up -d

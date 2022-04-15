@@ -1,0 +1,11 @@
+- hosts: appd
+  become: true
+  tasks:
+    - name: Copying docker compose file
+      copy:
+        src: docker-compose-database.yml
+        dest: /home/irvan/docker-files/
+
+    - name: Run docker compose
+      shell: docker-compose -f docker-files/docker-compose-database.yml up -d
+

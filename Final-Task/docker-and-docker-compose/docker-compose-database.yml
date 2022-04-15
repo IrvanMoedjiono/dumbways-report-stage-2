@@ -1,0 +1,13 @@
+version: '3'
+services:
+  postgresql:
+    image: postgres:latest
+    container_name: db
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: housy
+    ports:
+      - 5432:5432
+    volumes:
+      - /home/irvan/postgresql:/var/lib/postgresql/data/

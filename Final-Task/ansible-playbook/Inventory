@@ -1,0 +1,6 @@
+[appd]
+10.224.143.15 ansible_user=irvan
+[jenkins]
+10.224.143.165 ansible_user=irvan
+[monnginx]
+10.224.143.220 ansible_user=irvan

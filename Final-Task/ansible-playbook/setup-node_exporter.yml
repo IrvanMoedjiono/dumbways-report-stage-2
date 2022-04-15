@@ -1,0 +1,10 @@
+- hosts: all
+  become: true
+  tasks:
+    - name: copying docker compose file
+      copy:
+        src: docker-compose-node_exporter.yml
+        dest: /home/irvan/docker-files/
+
+    - name: run docker compose
+      shell: docker-compose -f docker-files/docker-compose-node_exporter.yml up -d

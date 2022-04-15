@@ -1,0 +1,5 @@
+- hosts: jenkins
+  become: true
+  tasks:
+    - name: Setup repository
+      shell: docker run -d --name jen -p 8080:8080 -p 50000:50000 -v jenkins_data:/var/jenkins_home jenkins/jenkins:lts
