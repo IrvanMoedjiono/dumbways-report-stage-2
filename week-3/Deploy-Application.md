@@ -1,6 +1,6 @@
 ## Reverse Proxy
 
-- buat direktori nginx membuat image docker nginx
+- buat direktori nginx untuk membuat image docker nginx
 
 - buat file configurasi reverse proxy dengan nam rp.conf
 
