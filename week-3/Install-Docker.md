@@ -20,7 +20,7 @@ sudo apt-get install \
 
 - Download resource docker 
 
-`curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg`
+```curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg```
 
 - Menambahkan gpg key dan repositori docker
 
