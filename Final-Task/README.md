@@ -1,14 +1,21 @@
-# Final Examination
-Jelaskan maksud dari final exam ini, apa yang akan Anda buat serta berikan gambar arsitektur servernya.
+# Final Task
 
-# Kebutuhan
-Jelaskan kebutuhan yang harus ada sebelum memulai, seperti:
-- Server : -
-- Security group : -
-- Aplikasi frontend : -
-- Aplikasi backend : -
-- Ansible : -
-- Dll
+1. [Repository](Repository.md)
 
-# Step by step
-Tulis dengan jelas proses yang akan dikerjakan mulai dari awal hingga akhir serta masukkan gambar pada setiap prosesnya.
+2. [Server](Server.md)
+
+3. [User](User.md)
+
+4. [SSH](SSH.md)
+
+5. [Database](Database.md)
+
+6. [Webserver](Webserver.md)
+
+7. [Deployment](Deployment.md)
+
+8. [CICD](CICD.md)
+
+9. [Monitoring](Monitoring.md)
+
+10. [Auth](Auth.md)
